@@ -3,7 +3,7 @@
 from flask import Flask, request, render_template_string
 import os
 import re
-from topsis_surya import run_topsis
+from topsis_angad import run_topsis
 import smtplib
 from email.message import EmailMessage
 from dotenv import load_dotenv

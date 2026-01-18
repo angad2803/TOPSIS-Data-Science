@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Topsis-SURYA-102303737"
+name = "Topsis-ANGAD-102313005"
 version = "0.1.0"
-description = "TOPSIS CLI implementation by SURYA KANT TIWARI (102303737)"
+description = "TOPSIS CLI implementation by ANGAD SINGH MADHOK (102313005)"
 readme = "README.md"
-authors = [{name = "SURYA KANT TIWARI", email = "stiwari2_be23@thapar.edu"}]
+authors = [{name = "ANGAD SINGH MADHOK", email = "amadhok2_be23@thapar.edu"}]
 license = {text = "MIT"}
 requires-python = ">=3.9"
 classifiers = [
@@ -17,10 +17,12 @@ classifiers = [
 ]
 dependencies = ["numpy>=1.24", "pandas>=2.0"]
 
+
 [project.scripts]
-topsis-cli = "topsis_surya.core:cli"
+topsis-cli = "topsis_angad.core:cli"
+
 
 [tool.setuptools.packages.find]
 where = [""]
-include = ["topsis_surya*"]
+include = ["topsis_angad*"]
 
