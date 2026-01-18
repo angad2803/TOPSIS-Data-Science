@@ -50,3 +50,4 @@ output*.csv
 result*.csv
 
 .env
+.env.example
