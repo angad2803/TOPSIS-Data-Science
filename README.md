@@ -49,19 +49,15 @@ Built with NumPy for fast vectorized computations and Pandas for robust data han
 
 ## 4. 🌐 Live Link
 
-**Streamlit Web App**: Run locally with `streamlit run app.py`
+**🚀 Live Demo:** [https://topsis-data-science-bghplnmn7wfrzxw8hbepcc.streamlit.app/](https://topsis-data-science-bghplnmn7wfrzxw8hbepcc.streamlit.app/)
 
-Local URL: http://localhost:8501
-
-*(Deploy to Streamlit Cloud, Heroku, or Render for live hosting)*
+**Local Development:** Run `streamlit run app.py` → http://localhost:8501
 
 ---
 
 ## 5. 📸 Screenshot of Interface
 
-![TOPSIS Web Interface](screenshot.png)
-
-*(Add your screenshot here)*
+![TOPSIS Web Interface](D:\TOPSIS\image.png)
 
 ---
 
@@ -124,7 +120,7 @@ python -m topsis_angad example_data.csv "2.3,1.7,3.1,0.9,2.6" "+,-,+,-,+" result
 ### Result
 
 | Fund Name | P1   | P2   | P3  | P4   | P5    | Topsis Score | Rank |
-|-----------|------|------|-----|------|-------|--------------|------|
+| --------- | ---- | ---- | --- | ---- | ----- | ------------ | ---- |
 | Zeta      | 0.66 | 0.46 | 6.1 | 52.9 | 13.45 | 0.6216       | 1    |
 | Eta       | 0.81 | 0.59 | 5.1 | 55.8 | 14.98 | 0.5669       | 2    |
 | Alpha     | 0.72 | 0.51 | 5.8 | 38.4 | 11.23 | 0.5337       | 3    |
